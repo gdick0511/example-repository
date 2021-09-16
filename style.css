@@ -41,7 +41,7 @@ P#second {
 
 .center {
     color: red;
-    text-align: justify;
+    text-align: justify; 
     margin-left: auto;
     margin-right: auto;
     font-size: larger;
