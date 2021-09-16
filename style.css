@@ -1,28 +1,48 @@
 body {
-    background: blue;
+    background: aqua;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px; 
+    border-style: outset;
 }
 
 h1 {
     color: red;
 }
 
+h2 {
+    color: red;
+    font-weight:bolder;
+}
+button {
+    width: 100px;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: yellow;
+}
 p#first {
+    font-size: larger;
     color: red;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 P#second {
+    font-size: larger;
     color: red;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ol#firstlist li {
+.center {
     color: red;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
 }
